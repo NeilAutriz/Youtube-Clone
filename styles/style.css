@@ -1,74 +1,82 @@
-body{
-    font-family: Roboto;
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.video-card-template{
-    background-color: rgb(187, 187, 187);
-    display: inline-block;
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.video-card-template {
     transition: background-color 0.15s;
     vertical-align: top;
-    margin: 5px;
-    width: 290px;
+    width: 100%;
+    margin: 0;
 }
 
-.thumbnails{
-    width: 290px;
-    object-position: center;
-    object-fit: fill;
-    display: block;
+.thumbnails {
+    width: 100%;
     cursor: pointer;
 }
 
-
-.search-bar{
+.search-bar {
     display: block;
     margin-bottom: 10px;
 }
 
-.title-video{
+.title-video {
     font-weight: bold;
     font-size: 16px;
 }
 
-.author-video{
+.author-video {
     font-size: 11px;
     margin-top: 0;
     color: rgb(96, 96, 96);
-    margin-bottom: 1px;
 }
 
-.stat-video{
+.stat-video {
     font-size: 11px;
     color: rgb(96, 96, 96);
     margin-top: 0;
 }
 
-.icon-template{
-    display: inline-block;
-    width: 30px;
+.icon-template {
     vertical-align: top;
 }
 
-.icon-image{
+.icon-image {
     border-radius: 50px;
     width: 30px;
-    margin-left: 5px;
+    margin-left: 9px;
     margin-top: 9px;
 }
-    
-.text-template{
+
+.text-template {
     margin-top: 0;
-    width: 250px;
     vertical-align: top;
-    display: inline-block;
 }
 
-.text-template p{
+.text-template p {
     margin-top: 4px;
     margin-left: 8px;
-} 
+}
 
-
-.text-template .title-video{
+.text-template .title-video {
     margin-bottom: 0;
+}
+
+.video-info-grid {
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    background-color: whitesmoke;
+}
+
+.video-collection-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 20px;
 }

@@ -5,6 +5,7 @@
         <link rel="stylesheet" href="styles/general.css">
         <link rel="stylesheet" href="styles/header.css">
         <link rel="stylesheet" href="styles/video-template.css">
+        <link rel="stylesheet" href="styles/sidebar.css">
 
         <!-- Import for the Roboto Font -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,16 +31,59 @@
             <div class="right-section">
                 <img class="upload-icon" src="images/icons/upload.svg">
                 <img class="square-icon" src="images/icons/youtube-apps.svg">
-                <img class="notification-icon" src="images/icons/notifications.svg">
+
+                <div class="notifications">
+                    <img class="notification-icon" src="images/icons/notifications.svg">
+                    <div class="notif-number"> 3 </div>
+                </div>
                 <img class="profile-picture" src="images/icons/my-channel.jpeg"> 
             </div>
 
         </div>
 
+        <!-- Side-bar contents -->
+        <div class="sidebar"> 
+            
+            <div class="home-icon"> 
+                <img class="home-image"src="images/icons/home.svg">
+                <p class="home-text"> Home </p>
+            </div>
+
+            <div class="explore-icon"> 
+                <img class="explore-image"src="images/icons/explore.svg">
+                <p class="explore-text"> Explore </p>
+            </div>
+
+            <div class="subscriptions-icon"> 
+                <img class="subscriptions-image"src="images/icons/subscriptions.svg">
+                <p class="subscriptions-text"> Subscriptions </p>
+            </div>
+
+            <div class="originals-icon"> 
+                <img class="originals-image"src="images/icons/originals.svg">
+                <p class="originals-text"> Originals </p>
+            </div>
+
+            <div class="youtube-music-icon"> 
+                <img class="youtube-music-image"src="images/icons/youtube-music.svg">
+                <p class="youtube-music-text"> Youtube Music </p>
+            </div>
+
+            <div class="library-icon"> 
+                <img class="library-image"src="images/icons/library.svg">
+                <p class="library-text"> Libraries </p>
+            </div>
+
+        </div>
+
+
         <!-- This section is utilized for the video-template-->
         <div class="video-collection-grid">
             <div class="video-card-template">
-                <img class="thumbnails" src="images/thumbnails/thumbnail-1.webp">
+                <div class="video-picture">
+                    <img class="thumbnails" src="images/thumbnails/thumbnail-1.webp">
+                    <div class="video-time"> 14:20 </div>
+                </div>
                 <div class="video-info-grid"> 
                     <div class="icon-template">
                         <img class="icon-image" src="images/channels/channel-1.jpeg">
@@ -54,7 +98,10 @@
 
             
             <div class="video-card-template">
-                <img class="thumbnails" src="images/thumbnails/thumbnail-2.webp">
+                <div class="video-picture">
+                    <img class="thumbnails" src="images/thumbnails/thumbnail-2.webp">
+                    <div class="video-time"> 8:22 </div>
+                </div>
                 <div class="video-info-grid"> 
                     <div class="icon-template">
                         <img class="icon-image" src="images/channels/channel-2.jpeg">
@@ -69,7 +116,10 @@
 
 
             <div class="video-card-template">
-                <img class="thumbnails" src="images/thumbnails/thumbnail-3.webp">
+                <div class="video-picture">
+                    <img class="thumbnails" src="images/thumbnails/thumbnail-3.webp">
+                    <div class="video-time"> 9:30 </div>
+                </div>
                 <div class="video-info-grid"> 
                     <div class="icon-template">
                         <img class="icon-image" src="images/channels/channel-3.jpeg">
@@ -84,7 +134,10 @@
 
 
             <div class="video-card-template">
-                <img class="thumbnails" src="images/thumbnails/thumbnail-4.webp">
+                <div class="video-picture">
+                    <img class="thumbnails" src="images/thumbnails/thumbnail-4.webp">
+                    <div class="video-time"> 11:12 </div>
+                </div>
                 <div class="video-info-grid"> 
                     <div class="icon-template">
                         <img class="icon-image" src="images/channels/channel-4.jpeg">
@@ -99,8 +152,11 @@
 
 
             <div class="video-card-template">
-                <img class="thumbnails" src="images/thumbnails/thumbnail-5.webp">
-                <div class="video-info-grid"> 
+                <div class="video-picture">
+                    <img class="thumbnails" src="images/thumbnails/thumbnail-4.webp">
+                    <div class="video-time"> 21:20 </div>
+                </div>                
+                    <div class="video-info-grid"> 
                     <div class="icon-template">
                         <img class="icon-image" src="images/channels/channel-5.jpeg">
                     </div>
@@ -114,7 +170,10 @@
 
 
             <div class="video-card-template">
-                <img class="thumbnails" src="images/thumbnails/thumbnail-6.webp">
+                <div class="video-picture">
+                    <img class="thumbnails" src="images/thumbnails/thumbnail-6.webp">
+                    <div class="video-time"> 31:10 </div>
+                </div>
                 <div class="video-info-grid"> 
                     <div class="icon-template">
                         <img class="icon-image" src="images/channels/channel-6.jpeg">

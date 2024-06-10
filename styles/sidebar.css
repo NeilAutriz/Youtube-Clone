@@ -1,0 +1,161 @@
+.sidebar{
+    background-color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 72px;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid rgb(237, 236, 236);
+    align-items: center;
+}
+
+.home-icon{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    transition: background-color 0.2s;
+}
+
+.home-icon:hover{
+    background-color: rgb(237, 236, 236);
+    cursor: pointer;
+}
+
+
+.home-image{
+    width: 22px;
+}
+
+.home-text{
+    margin-top: 5px;
+    font-size: 10px;
+    font-family: Roboto;
+}
+
+.explore-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    transition: background-color 0.2s;
+}
+
+.explore-icon:hover{
+    background-color: rgb(237, 236, 236);
+    cursor: pointer;
+}
+
+.explore-image{
+    width: 22px;
+}
+
+.explore-text{
+    font-size: 10px;
+    font-family: Roboto;
+}
+
+.subscriptions-icon{
+    width: 100%;
+    transition: background-color 0.2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+
+.subscriptions-icon:hover{
+    background-color: rgb(237, 236, 236);
+    cursor: pointer;
+}
+
+.subscriptions-image{
+    width: 22px;
+}
+
+.subscriptions-text{
+    font-size: 10px;
+    font-family: Roboto;
+}
+
+.originals-icon{
+    width: 100%;
+    transition: background-color 0.2s;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.originals-icon:hover{
+    background-color: rgb(237, 236, 236);
+    cursor: pointer;
+}
+
+.originals-image{
+    width: 22px;
+}
+
+.originals-text{
+    font-size: 10px;
+    font-family: Roboto;
+}
+
+.youtube-music-icon{
+    width: 100%;
+    transition: background-color 0.2s;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.youtube-music-icon:hover{
+    background-color: rgb(237, 236, 236);
+    cursor: pointer;
+}
+
+.youtube-music-image{
+    width: 22px;
+}
+
+.youtube-music-text{
+    font-size: 10px;
+    font-family: Roboto;
+}
+
+.library-icon{
+    width: 100%;
+    transition: background-color 0.2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+
+.library-icon:hover{
+    background-color: rgb(237, 236, 236);
+    cursor: pointer;
+}
+
+.library-image{
+    width: 22px;
+}
+
+.library-text{
+    font-size: 10px;
+    font-family: Roboto;
+}
+

@@ -3,7 +3,13 @@
     display: flex;
     flex-direction: row;
     justify-content:space-between;
-    align-items: center;
+    background-color: white;
+    position:fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    border-bottom: 1px solid rgb(237, 236, 236);
 }
 
 .left-section{
@@ -37,10 +43,11 @@
 .search-bar{
     margin-top: 10px;
     margin-left: 25px;
-    width: 400px;
+    flex: 1;    
     height: 40px;
     border: 1px solid rgb(203, 203, 203);
     border-radius: 3px;
+    width: 0;
 }
 
 .search-bar::placeholder{
@@ -77,6 +84,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-shrink: 0;
 }
 
 .upload-icon{
@@ -92,6 +100,24 @@
 .notification-icon{
     width: 40px;
     height: 30px;
+}
+
+.notifications{
+    position: relative;
+}
+
+.notif-number{
+    position: absolute;
+    top: 0;
+    right: 1px;
+    background-color: rgb(174, 22, 22);
+    width: 18px;
+    height: 18px;
+    font-size: 12px;
+    padding: 3px;
+    color: white;
+    text-align: center;
+    border-radius:9px;
 }
 
 .profile-picture{

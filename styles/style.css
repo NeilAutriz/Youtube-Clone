@@ -32,13 +32,13 @@ body {
 }
 
 .author-video {
-    font-size: 11px;
+    font-size: 14px;
     margin-top: 0;
     color: rgb(96, 96, 96);
 }
 
 .stat-video {
-    font-size: 11px;
+    font-size: 14px;
     color: rgb(96, 96, 96);
     margin-top: 0;
 }
@@ -49,9 +49,9 @@ body {
 
 .icon-image {
     border-radius: 50px;
-    width: 30px;
-    margin-left: 9px;
-    margin-top: 9px;
+    width: 40px;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
 .text-template {
@@ -70,13 +70,15 @@ body {
 
 .video-info-grid {
     display: grid;
-    grid-template-columns: 40px 1fr;
-    background-color: whitesmoke;
+    grid-template-columns: 50px 1fr;
 }
 
 .video-collection-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 10px;
-    row-gap: 20px;
+    column-gap: 25px;
+    row-gap: 35px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
 }

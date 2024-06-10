@@ -55,26 +55,64 @@
     padding: 5px;
 }
 
-.search-icon{
-    border-radius: 3px;
+.search-button{
+    width: 60px;
+    height: 40px;
     border: 1px solid rgb(203, 203, 203);
-    width: 70px;
-    height: 40px;
-    padding: 5px;
-    background-color: rgb(247, 247, 247);
+    z-index: 100;
     margin-left: -1px;
+    cursor: pointer;
+    position: relative;
 }
 
-.microphone-icon{
-    border: 1px solid transparent;
-    margin-left: 10px;
+.search-icon{
+    width: 30px;
+    padding: 1px;
+}
+
+.search-button:hover .search-text,
+.voice-button:hover .voice-text{
+    opacity: 1;
+}
+
+.search-text, 
+.voice-text {
+    position:absolute;
+    bottom: -50px;
+    background-color: rgb(133, 130, 130);
+    padding: 10px;
+    border-radius: 5px;
+    color: whitesmoke;
+    opacity: 0;
+    pointer-events: none;
+    white-space: nowrap;
+    font-size: 14px;
+    transition: opacity 0.15s;
+}
+
+button:active{
+    opacity: 0.5;
+}
+
+
+.voice-button{
     width: 40px;
-    background-color: rgb(237, 236, 236);
     height: 40px;
-    padding: 5px;
-    border-radius: 50px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 60px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+
+.voice-icon{
+    width: 40px;
+    padding: 2px;
+}
 
 .right-section{
     height: 100%;
@@ -87,14 +125,69 @@
     flex-shrink: 0;
 }
 
+.upload-division{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .upload-icon{
     width: 40px;
     height: 30px;
 }
 
+.upload-division:hover .upload-text,
+.square-division:hover .square-text,
+.notifications:hover .notification-text{
+    opacity: 1;
+}
+
+.upload-text, 
+.square-text{
+    position:absolute;
+    bottom: -57px;
+    background-color: rgb(133, 130, 130);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: whitesmoke;
+    opacity: 0;
+    pointer-events: none;
+    white-space: nowrap;
+    transition: opacity 0.15s;
+}
+
+.notification-text{
+    position:absolute;
+    bottom: -55px;
+    background-color: rgb(133, 130, 130);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: whitesmoke;
+    opacity: 0;
+    pointer-events: none;
+    white-space: nowrap;
+    transition: opacity 0.15s;
+}
+
+.square-division{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
 .square-icon{
     width: 40px;
     height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .notification-icon{
@@ -104,6 +197,9 @@
 
 .notifications{
     position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 .notif-number{
@@ -126,3 +222,4 @@
     height: 30px;
     border-radius: 20px;
 }
+

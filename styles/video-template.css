@@ -80,11 +80,29 @@
 
 .video-collection-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     column-gap: 15px;
     row-gap: 35px;
     margin-bottom: 30px;
     margin-right: 20px;
     margin-left: 20px;
     background-color: rgb(255, 255, 255);
+}
+
+@media (max-width: 750px) {
+    .video-collection-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width:751px) and (max-width: 999){
+    .video-collection-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1000px){
+    .video-collection-grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 }

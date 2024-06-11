@@ -1,3 +1,7 @@
+<!-- Mark Neil G. Autriz -->
+ 
+<!-- This utilizes HTML and CSS to create a clone of youtube application-->
+
 <!DOCTYPE HTML>
 <html>
     <head>
@@ -15,7 +19,7 @@
 
     <body>
         <!-- This section is utilized for creating numerous headers.-->
-        <div class="header">
+        <header class="header">
             <div class="left-section">
                 <img class="menu-button" src="images/icons/hamburger-menu.svg">
                 <img class="youtube-logo" src="images/icons/youtube-logo.svg">
@@ -57,10 +61,10 @@
                 <img class="profile-picture" src="images/icons/my-channel.jpeg"> 
             </div>
 
-        </div>
+        </header>
 
         <!-- Side-bar contents -->
-        <div class="sidebar"> 
+        <nav class="sidebar"> 
             
             <div class="home-icon"> 
                 <img class="home-image"src="images/icons/home.svg">
@@ -92,14 +96,15 @@
                 <p class="library-text"> Libraries </p>
             </div>
 
-        </div>
-
+        </nav>
 
         <!-- This section is utilized for the video-template-->
-        <div class="video-collection-grid">
+        <main class="video-collection-grid">
             <div class="video-card-template">
                 <div class="video-picture">
-                    <img class="thumbnails" src="images/thumbnails/thumbnail-1.webp">
+                    <a href="https://facebook.com">
+                        <img class="thumbnails" src="images/thumbnails/thumbnail-1.webp">
+                    </a>
                     <div class="video-time"> 14:20 </div>
                 </div>
                 <div class="video-info-grid"> 
@@ -204,7 +209,7 @@
                 </div>
             </div>
 
-        </div>
+        </main>
 
 
     </body>
